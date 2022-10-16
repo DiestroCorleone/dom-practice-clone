@@ -106,6 +106,14 @@ margin: 0 auto;
     justify-content: space-around;
  }
 
+.total {
+    width: 100%;
+    background: rgb(193, 208, 227);
+    padding: 2%;
+    border-radius: 5px;
+    color: rgb(93, 92, 92)
+}
+
  .buttons {
     display: flex;
     justify-content: space-between
@@ -122,10 +130,19 @@ margin: 0 auto;
  }
 
  footer {
+    width: 100%;
     background: rgb(61, 66, 72);
-    color: #fff;
     display: flex;
-    padding: 2%;
+    padding: 1%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+ }
+
+ footer ul li  {
+    padding: 1%;
+    margin: 5px 43px;
+ }
+
+ footer ul li a {
+    padding: 1%
  }
