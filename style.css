@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgb(61, 66, 72);
+    color: #fff;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.4em;
+    width: 20%
+}
+
+nav {
+    width: 60%;
+    margin-left: 10%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li  {
+    list-style: none;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none; 
+    list-style: none;
+}
+
+.speaker, .ticket {
+    font-weight: bold
+}
+
+.ticket {
+    color: rgb(141, 170, 77)
+}
+
+/*    MAIN    */
+
+.seniority {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%
+}
+
+.student, .trainee, .junior {
+   padding: 3%;
+   margin: .1%;
+   height: 230px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between
+}
+
+.student {
+    border: 2px solid rgb(150, 184, 224);
+}
+
+.trainee {
+    border: 2px solid rgb(147, 191, 200)
+}
+
+.junior {
+    border: 2px solid rgb(237, 213, 148)
+}
+
+.form-title {
+   text-align: center;
+}
+
+.form-title>p {
+    margin-bottom: 1%;
+ }
+
+ form {
+width: 58%;
+margin: 0 auto;
+ }
+
+ .name {
+    width: 100%;
+ }
+
+ .description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+ }
+
+ .buttons {
+    display: flex;
+    justify-content: space-between
+ }
+
+ .delete, .abstract {
+    width: 49.4%;
+    background: rgb(141, 170, 67);
+    color: #fff;
+    border: none;
+    padding: 1.2%;
+    border-radius: 5px;
+    margin: 1% 0
+ }
+
+ footer {
+    background: rgb(61, 66, 72);
+    color: #fff;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+ }
