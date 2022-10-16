@@ -61,17 +61,18 @@
           <h2>VALOR DE TICKET $200</h2>
         </div>
         <form action="">
-            <div class="name">
-            <input type="text" value="Nombre">
-            <input type="text" value="Apellido">
+            <div class="full-name">
+            <input type="text" value="Nombre" class="lastname">
+            <input type="text" value="Apellido" class="name">
         </div>
-            <input type="mail" value="Correo">
+            <input type="mail" value="Correo" class="email">
             <div class="description">
                 <p>Cantidad</p>
-                <p>Categoría</p>
+                <p class=" category" id="category">Categoría</p>
             </div>
             <div class="amount">
-                <select id="student" name="student">
+                <input type="text" value="cantidad" class="quantity" id="quantity">
+                <select id="students" class="students" name="student">
                     <option value="estudiante">Estudiante</option>
                     <option value="trainee">Trainee</option>
                     <option value="junior">Junior</option>
