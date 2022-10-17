@@ -83,6 +83,10 @@ ul li a {
     border: 2px solid rgb(237, 213, 148)
 }
 
+.discount {
+    font-weight: bold
+}
+
 .form-title {
    text-align: center;
 }
