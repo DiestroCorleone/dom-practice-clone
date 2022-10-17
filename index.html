@@ -72,7 +72,10 @@
             </div>
             <div class="amount">
                 <input type="number" class="quantity" id="quantity" placeholder="cantidad" value="" name="quantity" required>
-                <select id="students" class="students" name="students"  onchange="ShowSelected()">
+                <!--onclick="getValueInput()"
+                onchange="ShowSelected()"--> 
+                <select id="students" class="students" name="students"  >
+                    <option value="00">Select</option>
                     <option value="01">Estudiante</option>
                     <option value="02">Trainee</option>
                     <option value="03">Junior</option>
@@ -88,7 +91,7 @@
             <div class="total" id="total">Total a pagar: $</div>
 <div class="buttons">
     <input id="delete" class="delete" type="button" value="borrar">
-    <input id="abstract" class="abstract" type="button" value="resumen"  onclick="getValueInput()">
+    <input id="abstract" class="abstract" type="button" value="resumen" onclick="getTickets()">
    
 </div>
         </form>
@@ -108,7 +111,10 @@
     </footer>
     <!--
     <script src="./script.js"></script>
-    -->
+   
     <script src="./functions.js"></script>
+     -->
+     <!--<script src="./new.js"></script>-->
+     <script src="./new.js"></script>
   </body>
 </html>
