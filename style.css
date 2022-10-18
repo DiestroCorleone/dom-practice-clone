@@ -5,6 +5,9 @@
 }
 
 body {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -174,3 +177,29 @@ margin: 15px auto
  footer ul li a {
     padding: 1%
  }
+
+ @media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 1em
+    }
+
+    nav {
+        width: 80%;
+        margin-left: 5%;
+        font-size: .6em;
+    }
+
+
+    footer ul li  {
+        margin: 5px 4px;
+     }
+
+     footer ul li a {
+        font-size: .6em
+     }
+  }
+
+ 
+    
+ 
