@@ -9,6 +9,7 @@ body {
     flex-direction: column; 
     justify-content: space-between;
     font-family:Arial, Helvetica, sans-serif;
+    height: 100vh
 }
 
 header {
@@ -44,6 +45,10 @@ ul li a {
     color: #fff;
     text-decoration: none; 
     list-style: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }
 
 .speaker, .ticket {
