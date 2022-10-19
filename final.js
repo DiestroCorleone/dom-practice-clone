@@ -16,15 +16,15 @@ const calculatePrice = () => {
         total.innerHTML = `${discount}`;
         break;
       case "01":
-        discount = ((200 * 20) / 100) * parseInt(quantity); // 40
+        discount = parseInt(quantity) * 200 * 0.2; // 40
         total.innerHTML = `${discount}`;
         break;
       case "02":
-        discount = ((200 * 50) / 100) * parseInt(quantity); // 100
+        discount = parseInt(quantity) * 200 * 0.5; // 100
         total.innerHTML = `${discount}`;
         break;
       case "03":
-        discount = ((200 * 85) / 100) * parseInt(quantity); // 170
+        discount = parseInt(quantity) * 200 * 0.85; // 170
         total.innerHTML = `${discount}`;
         break;
       default:
